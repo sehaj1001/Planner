@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# --- Virtual Environments (uv/standard) ---
+# uv creates .venv by default
+.venv/
+venv/
+env/
+ENV/
+
+# --- PyCharm (JetBrains) ---
+# Exclude the entire .idea folder which holds local IDE settings
+.idea/
+# Specific PyCharm file patterns if you don't exclude the whole folder
+*.iws
+*.iml
+*.ipr
+
+# --- Environment Variables ---
+# NEVER commit secrets/API keys
+.env
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+*.json
